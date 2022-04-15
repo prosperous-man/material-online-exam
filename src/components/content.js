@@ -41,6 +41,10 @@ export default function Content(props) {
         setSelection(event.target.value);
     };
 
+    const testFunc = () => {
+        console.log(1);
+    }
+
     return (
         <div>
             <div className={classes.main_area}>
